@@ -1,0 +1,40 @@
+div{ /* main division */
+	float: left;
+	margin-right: 25px;
+}
+#contact{ /*contact box as seperate division*/
+	float: left;
+	width: 240px;
+	border: 1px solid;
+	border-color: darkblue;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	
+
+}	
+h1{ /*first and only heading*/
+	color: darkblue;
+	text-align: center;
+	border-top: 2px solid;
+	border-top-color: darkblue;
+	border-bottom: 2px solid;
+	border-bottom-color: darkblue;
+}
+
+p.blue { /* class named blue, represents all text in blue*/
+	color: darkblue;
+	width: 540px;
+	border-bottom: 1px solid;
+	border-color: darkblue;
+	
+}
+p.black { /* class named black, represents all text in black*/
+	color: black;
+	width: 540px;
+	
+}
+p.bluediv { /* class named bluediv, all blue text inside contact box*/
+	color: darkblue;
+	width: 230px;
+	border-bottom: 1px solid;
+	border-color: darkblue
